@@ -1,5 +1,5 @@
 
-public class Person {
+public class Person implements Info{
 
 	private String name;
 	
@@ -9,9 +9,15 @@ public class Person {
 	}
 
 
-public void greet() {
-	        System.out.println("Hello there.");
+   public void greet() {
+	    System.out.println("Hello there.");
    }
+
+
+	@Override
+	public void showInfo() {
+		System.out.println("Name: " +name);
+	}
 
 
    

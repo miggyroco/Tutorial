@@ -1,10 +1,5 @@
 
-public class Info {
+public interface Info {
 
-//	public interface Info {
-//	    public void showInfo();
-//	}
-	
+	public void showInfo();
 }
-
-
