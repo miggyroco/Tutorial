@@ -64,6 +64,8 @@ public class AppGenericsAndWildcards {
 	        for (Object value : list) {
 	            System.out.println(value);
 	        }
+	        
+	        System.out.println("sample");
 		
 
 	}
